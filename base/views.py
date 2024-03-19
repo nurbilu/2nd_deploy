@@ -146,6 +146,26 @@ class OrderView(APIView):
 def index(req):
     return Response({'test':'done'})
 
+@api_view(['GET'])
+def getRoutes(req):
+    routes = [
+        '/api/products/',
+        '/api/products/id/',
+        '/api/products/create/',
+        '/api/products/delete/id/',
+        '/api/products/update/id/',
+        '/api/categories/',
+        '/api/categories/id/',
+        '/api/categories/create/',
+        '/api/categories/delete/id/',
+        '/api/orders/',
+        '/api/orders/id/',
+        '/api/orders/create/',
+        '/api/orders/delete/id/',
+        '/api/orders/update/id/',
+    ]
+    return Response(routes)
+
 
 # The serializers 
 class MyTokenObtainPairView(TokenObtainPairView):
