@@ -138,7 +138,7 @@ WSGI_APPLICATION = 'myproj.wsgi.application'
 #         "NAME": "mydatabase",
 #         "USER": "root",
 #         # dont forget to change the password mysql
-#         "PASSWORD": "MYSQLnur1996##", 
+#         "PASSWORD": "222", 
 #         "HOST": "127.0.0.1",
 #         "PORT": "3306",
 #     }
@@ -149,7 +149,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "mydatabase",
         "USER": "postgres",
-        "PASSWORD": "GRES1996",
+        "PASSWORD": "@@@@",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
