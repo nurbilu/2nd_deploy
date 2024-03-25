@@ -132,15 +132,26 @@ WSGI_APPLICATION = 'myproj.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.mysql",
+#         "NAME": "mydatabase",
+#         "USER": "root",
+#         # dont forget to change the password mysql
+#         "PASSWORD": "MYSQLnur1996##", 
+#         "HOST": "127.0.0.1",
+#         "PORT": "3306",
+#     }
+# }
+
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.mysql",
+        "ENGINE": "django.db.backends.postgresql",
         "NAME": "mydatabase",
-        "USER": "root",
-        # dont forget to change the password mysql
-        "PASSWORD": "1234", 
+        "USER": "postgres",
+        "PASSWORD": "GRES1996",
         "HOST": "127.0.0.1",
-        "PORT": "3306",
+        "PORT": "5432",
     }
 }
 
